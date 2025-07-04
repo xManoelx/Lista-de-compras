@@ -1,0 +1,135 @@
+.add-section {
+    padding: 1.875rem;
+    background: white;
+    border-bottom: 0.0625rem solid #f5f5f5;
+}
+
+.input-group {
+    display: flex;
+    gap: 0.625rem;
+    margin-bottom: 0.9375rem;
+}
+
+#itemInput {
+    flex: 1;
+    padding: 1rem 1.25rem;
+    border: 0.125rem solid #f0f0f0;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+    background: white;
+}
+
+#itemInput:focus {
+    outline: none;
+    border-color: #ff69b4;
+}
+
+#addBtn {
+    background: #ff69b4;
+    color: white;
+    border: none;
+    padding: 1rem 1.5rem;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    font-weight: 400;
+}
+
+#addBtn:hover {
+    background: #ff1493;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.875rem;
+    color: #999;
+    margin-top: 1.25rem;
+}
+
+.list-container {
+    padding: 1.875rem;
+    min-height: 18.75rem;
+    background: white;
+}
+
+.list-title {
+    font-size: 1.2em;
+    margin-bottom: 1.5625rem;
+    color: #333;
+    font-weight: 400;
+}
+
+.shopping-list {
+    list-style: none;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    padding: 1.25rem 0;
+    border-bottom: 0.0625rem solid #f5f5f5;
+    transition: all 0.3s ease;
+}
+
+.list-item:hover {
+    background: #fafafa;
+}
+
+.list-item.completed {
+    background: transparent;
+}
+
+.list-item.completed .item-text {
+    text-decoration: line-through;
+    color: #ccc;
+}
+
+.item-checkbox {
+    width: 1.125rem;
+    height: 1.125rem;
+    margin-right: 1.25rem;
+    cursor: pointer;
+    accent-color: #ff69b4;
+}
+
+.item-text {
+    flex: 1;
+    font-size: 1rem;
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+.delete-btn {
+    background: transparent;
+    color: #ccc;
+    border: none;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    font-size: 0.875rem;
+    transition: color 0.3s ease;
+}
+
+.delete-btn:hover {
+    color: #ff69b4;
+}
+
+.empty-state {
+    text-align: center;
+    padding: 3.75rem 1.25rem;
+    color: #ccc;
+}
+
+.empty-icon {
+    font-size: 3em;
+    margin-bottom: 1.25rem;
+    opacity: 0.4;
+}
+
+.empty-state p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
