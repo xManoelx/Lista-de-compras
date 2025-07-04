@@ -18,3 +18,18 @@
     font-size: 1em;
     font-weight: 300;
 }
+
+@media (max-width: 37.5rem) {
+    .header {
+        padding: 1.5rem 1rem 1rem;
+    }
+    
+    .header h1 {
+        font-size: 1.8em;
+        margin-bottom: 0.25rem;
+    }
+    
+    .header p {
+        font-size: 0.9em;
+    }
+}
