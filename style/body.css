@@ -22,11 +22,11 @@
 
 #itemInput:focus {
     outline: none;
-    border-color: #ff69b4;
+    border-color: var(--primary-color);
 }
 
 #addBtn {
-    background: #ff69b4;
+    background: var(--primary-color);
     color: white;
     border: none;
     padding: 1rem 1.5rem;
@@ -38,7 +38,7 @@
 }
 
 #addBtn:hover {
-    background: #ff1493;
+    background: var(--primary-hover);
 }
 
 .stats {
@@ -92,7 +92,7 @@
     height: 1.125rem;
     margin-right: 1.25rem;
     cursor: pointer;
-    accent-color: #ff69b4;
+    accent-color: var(--primary-color);
 }
 
 .item-text {
@@ -114,7 +114,7 @@
 }
 
 .delete-btn:hover {
-    color: #ff69b4;
+    color: var(--primary-color);
 }
 
 .empty-state {

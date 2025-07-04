@@ -1,3 +1,8 @@
+:root {
+    --primary-color: #C93847;
+    --primary-hover: #B12D3A;
+}
+
 * {
     margin: 0;
     padding: 0;

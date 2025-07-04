@@ -1,7 +1,7 @@
 .clear-completed {
     background: transparent;
-    color: #ff69b4;
-    border: 0.0625rem solid #ff69b4;
+    color: var(--primary-color);
+    border: 0.0625rem solid var(--primary-color);
     padding: 0.625rem 1.25rem;
     border-radius: 0.25rem;
     cursor: pointer;
@@ -11,6 +11,6 @@
 }
 
 .clear-completed:hover {
-    background: #ff69b4;
+    background: var(--primary-color);
     color: white;
 }
